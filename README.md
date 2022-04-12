@@ -1,4 +1,4 @@
-# desafio-github-primeiro-repositori
+# desafio-github-primeiro-repositorio
 desafio de projeto sobre Git/Github
 
 ## Links Úteis
