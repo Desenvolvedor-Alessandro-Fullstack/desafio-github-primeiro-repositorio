@@ -1,9 +1,8 @@
-# desafio-github-primeiro-repositório
 # Markdown para Typora
 
-## *Visão geral*
+## *desafio-github-primeiro-repositório*
 
-**Markdown** foi criado por [Daring Fireball](http://daringfireball.net/); a diretriz original é [aqui](http://daringfireball.net/projects/markdown/syntax). Sua sintaxe, no entanto, varia entre diferentes analisadores ou editores. **Typora** está usando [GitHub Flavored Markdown][GFM].
+## **Visão geral**
 
 [toc]
 
@@ -19,21 +18,21 @@ Pressione `Shift` + `Return` para criar uma única quebra de linha. A maioria do
 
 Os cabeçalhos usam 1-6 caracteres hash (`#`) no início da linha, correspondendo aos níveis de cabeçalho 1-6. Por exemplo:
 
-``` remarcação
+``` markdown
 # Este é um H1
 
-## Este é um H2
+R## Este é um H2
 
 ###### Este é um H6
 ```
 
-Em Typora, insira ‘#’s seguido pelo conteúdo do título e pressione a tecla ‘Return’ para criar um cabeçalho.
+Em Typora, insira ‘#’s seguido pelo conteúdo do título e pressione a tecla  `Return` para criar um cabeçalho.
 
 ### Citações em bloco
 
 **Markdown** usa caracteres de estilo de e-mail > para citações em bloco. Eles são apresentados como:
 
-``` remarcação
+``` markdown
 > Esta é uma citação em bloco com dois parágrafos. Este é o primeiro parágrafo.
 >
 > Este é o segundo pragraph. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
@@ -51,7 +50,7 @@ A entrada `* list item 1` criará uma lista não ordenada - o símbolo `*` pode 
 
 Insira `1. list item 1` criará uma lista ordenada - seu código-fonte de remarcação é o seguinte:
 
-``` remarcação
+``` markdown
 ## lista não ordenada
 *   Vermelho
 *   Verde
@@ -67,7 +66,7 @@ Insira `1. list item 1` criará uma lista ordenada - seu código-fonte de remarc
 
 Listas de tarefas são listas com itens marcados como [ ] ou [x] (incompletos ou completos). Por exemplo:
 
-``` remarcação
+``` markdown
 - [ ] um item da lista de tarefas
 - [ ] sintaxe de lista obrigatória
 - [ ] normal **formatação**, @menções, #1234 referências
@@ -83,7 +82,7 @@ Typora suporta apenas cercas no GitHub Flavored Markdown. Os blocos de código o
 
 Usar fences é fácil: Insira \`\`\` e pressione `return`. Adicione um identificador de idioma opcional após \`\`\` e vamos executá-lo através do realce de sintaxe:
 
-```` gfm
+```` markdown
 Aqui está um exemplo:
 
 ``` js
@@ -118,7 +117,7 @@ $$
 
 No arquivo de origem do markdown, o bloco matemático é uma expressão *LaTeX* envolta por um par de marcas ‘$$’:
 
-``` remarcação
+``` markdown
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
@@ -140,27 +139,27 @@ A sintaxe completa para tabelas está descrita abaixo, mas não é necessário c
 
 No código-fonte markdown, eles se parecem com:
 
-``` remarcação
+``` markdown
 | Primeiro cabeçalho | Segundo Cabeçalho |
 | ------------- | ------------- |
 | Célula de Conteúdo | Célula de Conteúdo |
 | Célula de Conteúdo | Célula de Conteúdo |
 ```
 
-Você também pode incluir Markdown embutido, como links, negrito, itálico ou tachado na tabela.
+Você também pode incluir **Markdown** embutido, como links, negrito, itálico ou tachado na tabela.
 
 Por fim, incluindo dois pontos (`:`) na linha do cabeçalho, você pode definir o texto nessa coluna para ser alinhado à esquerda, à direita ou ao centro:
 
-``` remarcação
-| Alinhado à Esquerda | Alinhado ao Centro | Alinhado à direita |
-| :------------ |:---------------:|
+``` markdown
+| Alinhado à Esquerda | Alinhado ao Centro | Alinhado à direita | :------------ |:---------------:|-----:|
+| col 3 é 		| algum texto prolixo | $ 1600 |
+| col 2 é 		| centrado 			  | $ 12 |
+| lis. de zebra | são puros 		  | $1 |
 ```
 
------:|
-| col 3 é | algum texto prolixo | $ 1600 |
-| col 2 é | centrado | $ 12 |
-| listras de zebra | são puros | $1 |
-```
+
+
+```markdown
 
 Dois pontos no lado esquerdo indica uma coluna alinhada à esquerda; dois pontos no lado mais à direita indica uma coluna alinhada à direita; dois pontos em ambos os lados indicam uma coluna alinhada ao centro.
 
@@ -200,13 +199,13 @@ Os elementos Span serão analisados e renderizados logo após a digitação. Mov
 
 ### Links
 
-O Markdown suporta dois estilos de links: inline e de referência.
+O **Markdown** suporta dois estilos de links: inline e de referência.
 
 Em ambos os estilos, o texto do link é delimitado por [colchetes].
 
 Para criar um link embutido, use um conjunto de parênteses regulares imediatamente após o colchete de fechamento do texto do link. Dentro dos parênteses, coloque a URL para onde você quer que o link aponte, junto com um título opcional para o link, entre aspas. Por exemplo:
 
-``` remarcação
+``` markdown
 Este é um link embutido [um exemplo](http://example.com/ "Título").
 
 [Este link](http://example.net/) não tem atributo de título.
@@ -228,7 +227,7 @@ Comando(no Windows: Ctrl) + Clique em [Este link](#block-elements) irá pular pa
 
 Links de estilo de referência usam um segundo conjunto de colchetes, dentro do qual você coloca um rótulo de sua escolha para identificar o link:
 
-``` remarcação
+``` markdown
 Este é [um exemplo][id] link de estilo de referência.
 
 Então, em qualquer lugar do documento, você define seu rótulo de link em uma linha assim:
@@ -244,7 +243,7 @@ Este é [um exemplo][id] link de estilo de referência.
 
 O atalho do nome do link implícito permite que você omita o nome do link, caso em que o próprio texto do link é usado como nome. Basta usar um conjunto vazio de colchetes – por exemplo, para vincular a palavra “Google” ao site google.com, você pode simplesmente escrever:
 
-``` remarcação
+``` markdown
 [Google][]
 E então defina o link:
 
@@ -265,7 +264,7 @@ Typora também vinculará automaticamente URLs padrão. por exemplo: www.google.
 
 As imagens têm sintaxe semelhante aos links, mas requerem um caractere `!` adicional antes do início do link. A sintaxe para inserir uma imagem é assim:
 
-``` remarcação
+``` markdown
 ![Texto alternativo](/path/to/img.jpg)
 
 ![Texto alternativo](/path/to/img.jpg "Título opcional")
@@ -283,7 +282,7 @@ Markdown trata asteriscos (`*`) e sublinhados (`_`) a
 
 s indicadores de ênfase. O texto agrupado com um `*` ou `_` será agrupado com uma tag HTML `<em>`. Por exemplo:
 
-``` remarcação
+``` markdown
 *asteriscos simples*
 
 _sublinhados simples_
@@ -303,7 +302,7 @@ O GFM ignorará sublinhados em palavras, o que é comumente usado em códigos e 
 
 Para produzir um asterisco ou sublinhado literal em uma posição onde de outra forma seria usado como delimitador de ênfase, você pode escapar da barra invertida:
 
-``` remarcação
+``` markdown
 \*este texto está cercado por asteriscos literais\*
 ```
 
@@ -313,7 +312,7 @@ Typora recomenda usar o símbolo `*`.
 
 Um duplo `*` ou `_` fará com que seu conteúdo seja encapsulado com uma tag HTML `<strong>`, por exemplo:
 
-``` remarcação
+``` markdown
 **Asteriscos duplos**
 
 __sublinhados duplos__
@@ -351,9 +350,9 @@ O sublinhado é alimentado por HTML bruto.
 
 `<u>Sublinhado</u>` torna-se <u>Sublinhado</u>.
 
-### Emoji :smile:
+### Emoji :smiley_cat:
 
-Insira o emoji com a sintaxe `:smile:`.
+Insira o emoji com a sintaxe `:smile:`. 
 
 O usuário pode acionar sugestões de preenchimento automático para emoji pressionando a tecla 'ESC' ou acioná-lo automaticamente após habilitá-lo no painel de preferências. Além disso, a entrada direta de caracteres emoji UTF-8 também é suportada acessando `Edit` -> `Emoji & Symbols` na barra de menus (macOS).
 
@@ -379,13 +378,13 @@ Para usar este recurso, habilite-o primeiro no Painel `Preference` -> Aba `Markd
 
 ## HTML
 
-Você pode usar HTML para estilizar o conteúdo que o Markdown puro não suporta. Por exemplo, use `<span style="color:red">este texto é vermelho</span>` para adicionar texto com a cor vermelha.
+Você pode usar HTML para estilizar o conteúdo que o **Markdown** puro não suporta. Por exemplo, use `<span style="color:red">este texto é vermelho</span>` para adicionar texto com a cor vermelha.
 
 ### Incorporar conteúdo
 
 Alguns sites fornecem código de incorporação baseado em iframe que você também pode colar no Typora. Por exemplo:
 
-```Remarcação
+```markdown
 <iframe height='265' scrolling='no' title='Menu SVG animado sofisticado' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css, result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
 ```
 
@@ -393,7 +392,7 @@ Alguns sites fornecem código de incorporação baseado em iframe que você tamb
 
 Você pode usar a tag HTML `<video>` para incorporar vídeos. Por exemplo:
 
-```Remarcação
+```markdown
 <video src="xxx.mp4" />
 ```
 
@@ -405,21 +404,13 @@ Você pode encontrar mais detalhes [aqui](https://support.typora.io/HTML/).
 
 
 
-
-
-
-
-
-
-
-
 ## Links Úteis
-
-[https://github.com/alex231181/desafio-github-primeiro-repositori.git]
 
 [https://typora.io/]
 
 [https://web.dio.me/]
 
 [https://translate.google.com/]
+
+**Markdown** foi criado por [Daring Fireball](http://daringfireball.net/); a diretriz original é [aqui](http://daringfireball.net/projects/markdown/syntax). Sua sintaxe, no entanto, varia entre diferentes analisadores ou editores. **Typora** está usando [GitHub Flavored Markdown][GFM].
 
