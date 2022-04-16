@@ -1,18 +1,54 @@
-# desafio-github-primeiro-repositorio
-desafio de projeto sobre Git/
-<h1>ervtvt rgc rf v r r g f f 
 
 
-### desafio-github-primeiro-repositorio                                     
-**Desafio de projeto sobre Git/Github**
+# Desafio do 1º Repositório Git/Hub.
+
+## [https://github.com/alex231181/desafio-github-primeiro-repositorio/blob/e71b501c1d4d50787d0d7225b69c53184aa63340/Projeto%201%20Git/Typora%20comandos.mdProjeto](Referências do Typora em Português: :brazil:)
+
+<img Typora-el-mejor-editor-markdown-minilaista>
+
+
+
+````bash
+Visão Geral
+Indice
+Elementos 
+	blocos 
+	notas 
+	tabelas
+````
+
+````java
+Visão Geral
+Indice
+Elementos 
+	blocos 
+	notas 
+	tabelas
+````
+
+````basic
+Visão Geral
+Indice
+Elementos 
+	blocos 
+	notas 
+	tabelas
+````
 
 
 
 
-## Links Útei
 
-[https://web.dio.me/]
 
-[https://typora.io/]
+## Links e Agradecimentos
 
-[https://github.com/alex231181/desafio-github-primeiro-repositori.git]
+[https://web.dio.me/](DioDio)
+
+[https://typora.io/](Typora Markdown)
+
+[https://translate.google.com/?hl=pt-BR&sl=en&tl=pt&op=translate](Tradutor google)
+
+
+
+
+
