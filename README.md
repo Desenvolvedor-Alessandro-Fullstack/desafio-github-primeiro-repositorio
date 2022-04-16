@@ -1,11 +1,6 @@
-
-
 # Desafio do 1º Repositório Git/Hub
 ##(Referências do Typora em Português: :brazil:)
-
-<img Typora-el-mejor-editor-markdown-minilaista>
-
-
+<h1>
 
 ````bash
 Visão Geral
@@ -40,7 +35,7 @@ Elementos
 
 
 ## Links e Agradecimentos
-
+/<h1>
 [https://web.dio.me/](DioDio)
 
 [https://typora.io/](Typora Markdown)
