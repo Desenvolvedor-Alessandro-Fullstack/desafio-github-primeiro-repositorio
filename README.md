@@ -1,6 +1,6 @@
 # desafio-github-primeiro-repositorio
 desafio de projeto sobre Git/
-<h1>ervtvt rgc rf v r r g f f <h1>
+<h1>ervtvt rgc rf v r r g f f 
 
 
 ### desafio-github-primeiro-repositorio                                     
