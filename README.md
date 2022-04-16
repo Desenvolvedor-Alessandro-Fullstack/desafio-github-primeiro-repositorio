@@ -1,8 +1,7 @@
 
 
-# Desafio do 1º Repositório Git/Hub.
-
-## [https://github.com/alex231181/desafio-github-primeiro-repositorio/blob/e71b501c1d4d50787d0d7225b69c53184aa63340/Projeto%201%20Git/Typora%20comandos.mdProjeto](Referências do Typora em Português: :brazil:)
+# Desafio do 1º Repositório Git/Hub
+##(Referências do Typora em Português: :brazil:)
 
 <img Typora-el-mejor-editor-markdown-minilaista>
 
