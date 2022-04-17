@@ -1,15 +1,14 @@
+## Desafio 1º Repositório Git/Hub
+<h1>
+<img="/Imagens\Typora-el-mejor-editor-markdown-minilaista.svg">
+</h1>
 
+## [Referências do Typora em Português: :brazil:](https://github.com/alex231181/desafio-github-primeiro-repositorio/blob/4606c2b457dab63381b889f10e0ae8f9cb646027/Projeto%201%20Git/Typora%20comandos.md)
 
-# Desafio do 1º Repositório Git/Hub.
-
-## [https://github.com/alex231181/desafio-github-primeiro-repositorio/blob/e71b501c1d4d50787d0d7225b69c53184aa63340/Projeto%201%20Git/Typora%20comandos.mdProjeto](Referências do Typora em Português: :brazil:)
-
-<img Typora-el-mejor-editor-markdown-minilaista>
-
+Visão Geral
 
 
 ````bash
-Visão Geral
 Indice
 Elementos 
 	blocos 
@@ -40,13 +39,13 @@ Elementos
 
 
 
-## Links e Agradecimentos
+#Links e Agradecimentos
 
-[https://web.dio.me/](DioDio)
+[Web.Dio.Me](https://web.dio.me/)
 
-[https://typora.io/](Typora Markdown)
+[Typora Markdown](https://typora.io/)
 
-[https://translate.google.com/?hl=pt-BR&sl=en&tl=pt&op=translate](Tradutor google)
+[Tradutor google](https://translate.google.com/?hl=pt-BR&sl=en&tl=pt&op=translate)<h1>
 
 
 
