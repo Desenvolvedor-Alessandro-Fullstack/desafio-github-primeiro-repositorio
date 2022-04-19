@@ -1,4 +1,4 @@
-# Desafio 1º Repositório Git/Hub
+## Desafio 1º Repositório Git/Hub
 <div align="center">
 <img src="https://s3.ifanr.com/wp-content/uploads/2021/12/title.gif" width="1080px" /></div>
 
@@ -6,48 +6,54 @@
 
 <h1>
 
-## Visão Geral
+## Visão Geral 🚀
 
 
-````bash
-Indice
-Elementos 
-	blocos 
-	notas 
-	tabelas
+````java
+Elementos do Bloco
+	Quabra de parágrafo e linha
+	Cabeçalhos
+	Citações em Bloco
+	Listas de Tarefas
+	Blocos de Código (cercados)
+	Blocos Matemáticos
+	Tabelas
+	Regras Horizontais
+	Assunto Princpal do YAML
+	Índice (TOC)	
 ````
 
 ````java
-Visão Geral
-Indice
-Elementos 
-	blocos 
-	notas 
-	tabelas
+Elementos de Extensão
+	Links
+		Links Internos
+		Links de Referência
+	URLs
+	Imagens
+	Ênfase
+	Forte
+	Código
+	Tachado
+	Sublinhados
+	Emoji
+	Matemática Inline
+	Subscrito
+	Sobscrito
+	Destaque
 ````
 
-````basic
-Visão Geral
-Indice
-Elementos 
-	blocos 
-	notas 
-	tabelas
+````java
+HTML
+	Incorporar Conteúdo
+	Vídeo
+	Outros Suportes HTML
 ````
 
 
-
-
-
-
-
-
-
-## Links e Agradecimentos
+## Links e Agradecimentos 🗽
 
 
 [Web.Dio.Me](https://web.dio.me/)
-
 
 [Typora Markdown](https://typora.io/)
 
