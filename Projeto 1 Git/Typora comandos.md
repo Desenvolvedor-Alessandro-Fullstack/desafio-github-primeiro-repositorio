@@ -23,7 +23,7 @@ Os cabeçalhos usam 1-6 caracteres hash (`#`) no início da linha, correspondend
 ``` markdown
 # Este é um H1
 
-R## Este é um H2
+## Este é um H2
 
 ###### Este é um H6
 ```
@@ -153,10 +153,11 @@ Você também pode incluir **Markdown** embutido, como links, negrito, itálico 
 Por fim, incluindo dois pontos (`:`) na linha do cabeçalho, você pode definir o texto nessa coluna para ser alinhado à esquerda, à direita ou ao centro:
 
 ``` markdown
-| Alinhado à Esquerda | Alinhado ao Centro | Alinhado à direita | :------------ |:---------------:|-----:|
-| col 3 é 		| algum texto prolixo | $ 1600 |
-| col 2 é 		| centrado 			  | $ 12 |
-| lis. de zebra | são puros 		  | $1 |
+| Alinhado à Esquerda | Alinhado ao Centro | Alinhado à direita 
+| :------------ |:---------------:|-----:|
+| col 3 é 		  | algum texto prolixo | $ 1600 |
+| col 2 é 		  | centrado 	| $ 12 |
+| lis. de zebra | são puros | $1 |
 ```
 
 
