@@ -7,40 +7,40 @@
 ## Visão Geral do Indice 🚀
 ### Elementos do Bloco
 ````java
-	Quabra de parágrafo e linha
-	Cabeçalhos
-	Citações em Bloco
-	Listas de Tarefas
-	Blocos de Código (cercados)
-	Blocos Matemáticos
-	Tabelas
-	Regras Horizontais
-	Assunto Princpal do YAML
-	Índice (TOC)	
+* Quabra de parágrafo e linha
+* Cabeçalhos
+* Citações em Bloco
+* Listas de Tarefas
+* Blocos de Código (cercados)
+* Blocos Matemáticos
+* Tabelas
+* Regras Horizontais
+* Assunto Princpal do YAML
+* Índice (TOC)	
 ````
 ### Elementos de Extensão
 ````java
-	Links
-		Links Internos
-		Links de Referência
-	URLs
-	Imagens
-	Ênfase
-	Forte
-	Código
-	Tachado
-	Sublinhados
-	Emoji
-	Matemática Inline
-	Subscrito
-	Sobscrito
-	Destaque
+* Links
+	Links Internos
+	Links de Referência
+* URLs
+* Imagens
+* Ênfase
+* Forte
+* Código
+* Tachado
+* Sublinhados
+* Emoji
+* Matemática Inline
+* Subscrito
+* Sobscrito
+* Destaque
 ````
 ### HTML
 ````java
-	Incorporar Conteúdo
-	Vídeo
-	Outros Suportes HTML
+* Incorporar Conteúdo
+* Vídeo
+* Outros Suportes HTML
 ````
 
 
